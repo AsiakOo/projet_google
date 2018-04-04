@@ -1,6 +1,13 @@
 body{
   background: #FFF;
+  font-family: arial;
+
 }
+
+ul
+{margin : 0;
+padding: 0}
+
 nav ul{
   list-style: none;
   float: right;
@@ -18,12 +25,12 @@ li{
   height: 92px;
 }
 #bar{
-  background: #EEE;
   text-align: center;
 }
 #bar input{
   width: 632px;
-  height: 37px;
+  height: 44px;
+  border: 1px #E4E4E4 solid;
 }
 #bar .micro{
   left: 50px;
@@ -37,4 +44,64 @@ li{
   height: 36px;
   background: #F7F7F7;
   color: #444;
+}
+
+p{
+  text-align: left;
+  padding-left: 15px;
+  margin: O;
+
+}
+
+.info
+{
+    padding: 15px;
+flex :1;
+}
+
+.infobis
+{
+    padding: 15px;
+    flex :1;
+    text-align: right;
+
+
+}
+
+.informations
+{
+display: flex;
+
+}
+
+footer
+{position: absolute;
+bottom: 0px;
+width: 100%;
+margin :0;
+background : #F2F2F2;
+}
+
+footer, ul{
+  border-top: solid 1px #E4E4E4;
+}
+
+footer, li{
+  margin-right: 10px;
+}
+
+.input:hover
+{
+
+box-shadow: 1px 7px 15px #E4E4E4;
+
+}
+
+.recherche_google .bouton1:hover
+{
+
+font-weight: bold;
+
+
+
 }
