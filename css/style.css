@@ -1,3 +1,6 @@
+/* liste de couleur
+gris = #535353 */
+
 body{
   background: #FFF;
   font-family: arial;
@@ -42,6 +45,7 @@ li{
 }
 #bar{
   text-align: center;
+  margin-top : 25px;
 }
 #bar input{
   width: 632px;
@@ -106,8 +110,6 @@ flex :1;
     padding: 15px;
     flex :1;
     text-align: right;
-
-
 }
 
 .informations
@@ -122,6 +124,7 @@ footer{
   margin :0;
   background : #F2F2F2;
   border-top: solid 1px #E4E4E4;
+  color: #535353;
 }
 
 footer ul{
