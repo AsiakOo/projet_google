@@ -1,5 +1,8 @@
 /* liste de couleur
-gris = #535353 */
+gris = #535353
+blue de google = #5187EB
+
+ */
 
 body{
   background: #FFF;
@@ -60,6 +63,11 @@ li{
 }
 .menu{
   width: 15px;
+  opacity: .6;
+}
+.menu:hover{
+  width: 15px;
+  opacity: 1;
 }
 .cnx a{
   color: #fff;
@@ -130,8 +138,14 @@ footer{
 footer ul{
   border-top: solid 1px #E4E4E4;
 }
-
-
 .input:hover{
   box-shadow: 1px 7px 15px #E4E4E4;
 }
+
+
+
+
+
+
+
+/* test *************/
